@@ -1,0 +1,26 @@
+# 𝖥𝗋𝖺𝗆𝖾𝗐𝗈𝗋𝗄 𝖿𝗈𝗋 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆
+pyrogram==2.0.106
+tgcrypto
+
+# 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 & 𝖲𝗍𝗈𝗋𝖺𝗀𝖾
+motor
+pymongo[srv]
+
+# 𝖬𝖾𝖽𝗂𝖺 𝖤𝗇𝗀𝗂𝗇𝖾 (𝖥𝖥𝗆𝗉𝖾𝗀 𝖧𝖺𝗇𝖽𝗅𝗂𝗇𝗀)
+ffmpeg-python
+hachoir
+
+# 𝖳𝗂𝗆𝖾 𝖹𝗈𝗇𝖾 & 𝖣𝖺𝗍𝖾 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍
+pytz
+
+# 𝖭𝖾𝗍𝗐𝗈𝗋𝗄 & 𝖠𝖯𝖨 𝖧𝖺𝗇𝖽𝗅𝖾𝗋𝗌
+aiohttp
+requests
+python-dotenv
+
+# 𝖲𝗒𝗌𝗍𝖾𝗆 𝖬𝗈𝗇𝗂𝗍𝗈𝗋𝗂𝗇𝗀 (𝖴𝗉𝗍𝗂𝗆𝖾 & 𝖲𝗍𝖺𝗍𝗌)
+psutil
+
+# 𝖴𝗍𝗂𝗅𝗂𝗍𝗂𝖾𝗌
+asyncio
+
