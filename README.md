@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/0937a4e6b1853d99e033d.jpg" alt="License">
-  <img src="https://telegra.ph/file/7c4f8d5a2b1e3c4d5e6f7.jpg" alt="Stars">
-  <img src="https://telegra.ph/file/1a2b3c4d5e6f7g8h9i0j1.jpg" alt="Forks">
+  <img src="https://file_3.png" alt="License">
+  <img src="https://file_2.png" alt="Stars">
+  <img src="https://file_1.png" alt="Forks">
 </p>
 
 ---
