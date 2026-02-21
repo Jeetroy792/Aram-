@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://file_3.png" alt="License">
-  <img src="https://file_2.png" alt="Stars">
-  <img src="https://file_1.png" alt="Forks">
+  <img src="file_3.png" alt="License">
+  <img src="file_2.png" alt="Stars">
+  <img src="file_1.png" alt="Forks">
 </p>
 
 ---
