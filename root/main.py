@@ -125,3 +125,13 @@ if __name__ == "__main__":
     Thread(target=run_web).start()
     loop = asyncio.get_event_loop()
     loop.run_until_complete(start_services())
+
+#---------------image-------------------------
+
+
+@app.on_message(filters.photo & filters.user(Config.ADMINS))
+async def get_file_id(client, message):
+    # তুমি যখন বটকে কোনো ছবি পাঠাবে, সে ওই ছবির file_id দিয়ে দেবে
+    await message.reply_text(f"**Your Image File ID:**\n`{message.photo.file_id}`")
+
+
