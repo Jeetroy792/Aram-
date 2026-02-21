@@ -1,0 +1,65 @@
+{
+  "name": "Elite Encoder X9",
+  "description": "Professional 2300+ Lines Video Encoder Bot with Multi-Quality, Watermark, and Premium System.",
+  "keywords": [
+    "telegram",
+    "encoder",
+    "video",
+    "ffmpeg",
+    "pyrogram",
+    "elite",
+    "master-jeet"
+  ],
+  "repository": "https://github.com/MasterJeet/EliteEncoder",
+  "logo": "https://telegra.ph/file/your-image-link.jpg",
+  "env": {
+    "API_ID": {
+      "description": "Get this from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Get this from @BotFather",
+      "value": ""
+    },
+    "DB_URI": {
+      "description": "Your MongoDB URI (Atlas)",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID",
+      "value": ""
+    },
+    "LOG_CHANNEL": {
+      "description": "Channel ID for logs (Starts with -100)",
+      "value": ""
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "Channel username for F-Sub (without @)",
+      "value": ""
+    },
+    "PORT": {
+      "description": "Port for web server (Default 8080)",
+      "value": "8080",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+
