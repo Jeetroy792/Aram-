@@ -1,7 +1,7 @@
 # 🚀 𝖤𝗅𝗂𝗍𝖾 𝖤𝗇𝖼𝗈𝖽𝖾𝗋 𝖷𝟫 — 𝖳𝗁𝖾 𝖴𝗅𝗍𝗂𝗆𝖺𝗍𝖾 𝖬𝖾𝖽𝗂𝖺 𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝗈𝗋
 
 <p align="center">
-  <img src="https://telegra.ph/file/your-image-link.jpg" alt="Elite Encoder" width="500">
+  <img src="IMG_1.png" alt="Elite Encoder" width="500">
 </p>
 
 <p align="center">
