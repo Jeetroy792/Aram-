@@ -9,7 +9,7 @@ load_dotenv()
 
 class Config(object):
     # --- 𝖡𝗈𝗍 𝖢𝗈𝗋𝖾 𝖢𝗈𝗇𝖿𝗂𝗀 ---
-    API_ID = int(os.environ.get("API_ID", "24670806"))
+    API_ID = int(os.environ.get("API_ID", 24670806))
     API_HASH = os.environ.get("API_HASH", "82134723a32b2cae76b9cfb3b1570745")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8490377165:AAHqZoFhpM57_e2hSDhhrv5zvhGVmGyRO5c")
     
