@@ -9,28 +9,29 @@ load_dotenv()
 
 class Config(object):
     # --- 𝖡𝗈𝗍 𝖢𝗈𝗋𝖾 𝖢𝗈𝗇𝖿𝗂𝗀 ---
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", "24670806"))
+    API_HASH = os.environ.get("API_HASH", "82134723a32b2cae76b9cfb3b1570745")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8490377165:AAHqZoFhpM57_e2hSDhhrv5zvhGVmGyRO5c")
     
     # --- 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 𝖢𝗈𝗇𝖿𝗂𝗀 ---
-    DB_URI = os.environ.get("DB_URI", "")
+    DB_URI = os.environ.get("DB_URI", "mongodb+srv://Filestore:ram12345678@cluster0.bcz3n2q.mongodb.net/?appName=Cluster0")
     DB_NAME = os.environ.get("DB_NAME", "EliteEncoderBot")
     
     # --- 𝖠𝖽𝗆𝗂𝗇 & 𝖫𝗈𝗀𝗌 ---
-    OWNER_ID = int(os.environ.get("OWNER_ID", "12345678"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "8229228616"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003545815372"))
     ADMINS = [OWNER_ID, 56789012] # এখানে আরও অ্যাডমিন আইডি যোগ করতে পারো
     
     # --- 𝖥𝗈𝗋𝖼𝖾 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 ---
     # চ্যানেলের ইউজারনেম দাও (@ ছাড়া)
-    FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "YourChannelName")
+    FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "allfreecoursesforfree")
     
     # --- 𝖲𝗁𝗈𝗋𝗍𝗇𝖾𝗋 & 𝖵𝖾𝗋𝗂𝖿𝗂𝖼𝖺𝗍𝗂𝗈𝗇 ---
     # তোমার শর্টলিংক এপিআই এবং ইউআরএল
-    SL1_URL = os.environ.get("SL1_URL", "api.shareus.io")
-    SL1_API = os.environ.get("SL1_API", "your_api_key_here")
-    
+    SL1_URL = os.environ.get("SL1_URL", "gplinks.com")
+    SL1_API = os.environ.get("SL1_API", "e07aec576df2a9ed36f1b94b8017cc53b792496f")
+    START_PIC = os.environ.get("START_PIC", "IMG_1.png")
+
     # --- 𝖤𝗇𝖼𝗈𝖽𝗂𝗇𝗀 𝖲𝖾𝗍𝗍𝗂𝗇𝗀𝗌 ---
     # ফ্রি ইউজারদের জন্য দৈনিক লিমিট
     FREE_LIMIT = int(os.environ.get("FREE_LIMIT", 5))
